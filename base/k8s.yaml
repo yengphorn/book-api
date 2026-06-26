@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: book-api
-          image: yeng123/book-api
+          image: yeng123/book-api #
           ports:
             - containerPort: 8080
           resources:
